@@ -1,0 +1,50 @@
+ICUTENIC INDEPENDENT WEBSITE
+
+This replaces the earlier Sites-only source export. It runs without ChatGPT, Shopify, or a ChatGPT login. It has NOT been deployed to independent hosting yet.
+
+INCLUDED
+Your existing storefront layout and photos with 17 products
+Your own email/password owner login
+Add edit remove products
+Prices categories descriptions S M L sizes
+Multiple color photos per product
+Database and uploaded photos that survive a server restart
+A product-data export button
+US shipping and existing return policy
+Coming soon labels
+
+CHECKOUT
+The catalog remains coming soon. Payment collection, order processing, inventory tracking, and automatic shipping labels are not included. These need to be connected before accepting orders. This preserves your earlier request to leave checkout unfinished.
+
+HOSTING
+You need a Node.js 24 server with a persistent disk and HTTPS. A static-only host cannot run this dashboard.
+One supported deployment path is Render using the included Dockerfile and render.yaml. Its persistent disk requires paid hosting. Review the live provider pricing before subscribing:
+https://render.com/pricing
+https://render.com/docs/disks
+
+RENDER SETUP
+1 Create your Render account and a private GitHub repository you own.
+2 Put the CONTENTS of this folder at the repository root and connect it to a Render Docker web service.
+3 Set ADMIN_EMAIL to your owner email.
+4 Set ADMIN_PASSWORD in Render's secret/environment settings to a unique private password at least 12 characters long. Do not put it in source files or send it in chat.
+5 Set PUBLIC_URL to your exact HTTPS site origin, for example https://icutenic.onrender.com (use the address actually assigned to your service).
+6 Set NODE_ENV=production and DATA_DIR=/data.
+7 Attach a persistent disk at /data. Without persistent storage your product changes/photos will be lost during redeployment.
+8 Deploy. Visit /login to sign in; /admin opens the product manager.
+9 When adding color photos, enter one comma-separated color name per photo in the same order. Photos must be PNG JPG or WebP below 5 MB each and 8 MB in total. When editing leave photos blank to keep them, or upload a replacement set.
+
+LOCAL RUN FOR A DEVELOPER
+Install Node.js 24.
+Set ADMIN_EMAIL, ADMIN_PASSWORD, PUBLIC_URL=http://localhost:3000 and DATA_DIR to an absolute local data folder.
+Run node server.mjs. No package installation is required.
+Run node test.mjs for meaningful authorization upload edit persistence delete and logout checks.
+For production HTTPS set NODE_ENV=production and PUBLIC_URL to the exact HTTPS origin.
+
+BACKUPS AND PASSWORD RECOVERY
+Keep a backup of the entire persistent data folder: shop.sqlite with its WAL files and uploads/. Stop the server or use a consistent SQLite backup mechanism before copying the database. The export button contains product records only; it does not include uploaded image bytes.
+Forgot password: change ADMIN_PASSWORD in the hosting dashboard and restart. Existing sessions persist for up to 8 hours; clear the sessions table if access must be revoked immediately. This version has no email password-reset service.
+Deleted/replaced product images are retained on disk to avoid accidentally removing shared photos. Periodic storage cleanup can be added later.
+Initial 17 products are included. Products uploaded to the old ChatGPT Site after its publication are not included in this export; migrate those separately if applicable.
+
+GOOGLE
+A deployed public storefront can be submitted to Google Search Console after you have your real website address. Owner routes have noindex and /api routes are excluded in robots.txt. Search inclusion is not guaranteed. A custom domain can be connected through the chosen host.

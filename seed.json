@@ -1,0 +1,305 @@
+[
+  {
+    "id": "1",
+    "name": "SWAG CAT TEE",
+    "price": null,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "/swag-cat-pink.png"
+      },
+      {
+        "color": "Black",
+        "image": "/swag-cat-black.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "2",
+    "name": "FASHION MAGAZINE TEE",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "/fashion-magazine-tee.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "3",
+    "name": "FASHION TASTE TEE",
+    "price": 22.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "White / Purple",
+        "image": "/fashion-taste-tee.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "4",
+    "name": "MONKEY TEE",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Sky blue",
+        "image": "/sky-blue-monkey-tee.png"
+      },
+      {
+        "color": "Pink",
+        "image": "/monkey-tee-pink.png"
+      },
+      {
+        "color": "Pale yellow",
+        "image": "/monkey-tee-yellow.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "5",
+    "name": "NO,YOUR NOT BATMAN",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Coral / Light blue",
+        "image": "/3413902509-fitted.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "6",
+    "name": "bro",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Pink / Orange",
+        "image": "/6832545151-fitted.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "7",
+    "name": "IT ALWAYS ABOUT ME",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Sky blue / White",
+        "image": "/8218909827-fitted.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "8",
+    "name": "CALL ME BABY",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Hot pink / Black",
+        "image": "/6916969917-fitted.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "9",
+    "name": "ITS ICONIC TO OWN A MERCEDES",
+    "price": 24.0,
+    "category": "SHIRTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Pink / Black",
+        "image": "/1298036265-fitted.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "10",
+    "name": "SWAG SHORTS",
+    "price": 30.0,
+    "category": "PANTS",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "/swag-shorts.png"
+      },
+      {
+        "color": "Gray",
+        "image": "/swag-shorts-gray.png"
+      },
+      {
+        "color": "White",
+        "image": "/swag-shorts-white.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "11",
+    "name": "DENIM STACK HOODIE",
+    "price": 42.0,
+    "category": "HOODIES",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "/denim-stack-hoodie.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "12",
+    "name": "SUPERMAN HOODIE",
+    "price": 42.0,
+    "category": "HOODIES",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "color": "Royal blue",
+        "image": "/blue-superman-hoodie.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "13",
+    "name": "QUARTZ WATCH",
+    "price": 15.0,
+    "category": "ACCESSORIES",
+    "sizes": [],
+    "variants": [
+      {
+        "color": "Gold tone / Pink dial",
+        "image": "/watch-pink-white.png"
+      }
+    ],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "14",
+    "name": "FLOWER ENAMEL BANGLE",
+    "price": null,
+    "category": "ACCESSORIES",
+    "sizes": [],
+    "variants": [],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "15",
+    "name": "HEART & FLOWER OPEN RINGS",
+    "price": null,
+    "category": "ACCESSORIES",
+    "sizes": [],
+    "variants": [],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "16",
+    "name": "OCEAN PATTERN BANGLE",
+    "price": null,
+    "category": "ACCESSORIES",
+    "sizes": [],
+    "variants": [],
+    "description": "",
+    "status": "coming-soon"
+  },
+  {
+    "id": "17",
+    "name": "GEOMETRIC SPARKLE RING",
+    "price": null,
+    "category": "ACCESSORIES",
+    "sizes": [],
+    "variants": [],
+    "description": "",
+    "status": "coming-soon"
+  }
+]
